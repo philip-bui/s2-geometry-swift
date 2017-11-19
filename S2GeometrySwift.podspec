@@ -17,13 +17,13 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = Contains a Swift import of Googles S2 Geometry Library.
+  s.description      = 'Contains a Swift import of Googles S2 Geometry Library'
 
-  s.homepage         = 'https://github.com/Philip/S2GeometrySwift'
+  s.homepage         = 'https://github.com/philip-bui/s2-geometry-swift'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Philip' => 'philip.bui.developer@gmail.com' }
-  s.source           = { :git => 'https://github.com/philip-bui/S2GeometrySwift.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/philip-bui/s2-geometry-swift.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

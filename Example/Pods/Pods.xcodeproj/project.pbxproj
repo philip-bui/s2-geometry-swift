@@ -31,22 +31,9 @@
 		3C277E091FC1CD88001763FC /* S2PolygonBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C277DF21FC1CD88001763FC /* S2PolygonBuilder.swift */; };
 		3C277E0A1FC1CD88001763FC /* S2CellUnion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C277DF31FC1CD88001763FC /* S2CellUnion.swift */; };
 		4B9E9DA85E0AF9A72E0CCF98A4B5AAFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		96B65FBF6CC5245ADD0B84EF9D55910C /* S2GeometrySwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 847CD55FB91006127077C532A1D0F425 /* S2GeometrySwift-dummy.m */; };
 		9EBA259D389B9759E4372391ED129288 /* Pods-S2GeometrySwift_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 973F16BBCE41B71F152E8FF1F7FC49E8 /* Pods-S2GeometrySwift_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B6709C7188FE2024877228EBF4107B86 /* Pods-S2GeometrySwift_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D839372C54C39087C3D06CF84ACAAD /* Pods-S2GeometrySwift_Tests-dummy.m */; };
-		C5DAE27570B8702445D4FFE100E2DE82 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		FABF31D5231C732FD2C53E0BE811933A /* S2GeometrySwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EE52B65231F5C252E2491FC1EE81122C /* S2GeometrySwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		A277C2DC78BBE0569AD7AD1E1D64C8CA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5FEE098E9E4D2550463E7C0EB479C132;
-			remoteInfo = S2GeometrySwift;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0974D247D1FE55319FC53434B5F42135 /* Pods-S2GeometrySwift_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-S2GeometrySwift_Tests.modulemap"; sourceTree = "<group>"; };
@@ -85,7 +72,6 @@
 		9B6BDB30524FF926B5041D44348264F7 /* S2GeometrySwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "S2GeometrySwift-prefix.pch"; sourceTree = "<group>"; };
 		AEA210868C5640416CF3DE15E1EF42E3 /* Pods-S2GeometrySwift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-S2GeometrySwift_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B62F544B412672795A6F893A5431EB28 /* Pods-S2GeometrySwift_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-S2GeometrySwift_Tests-resources.sh"; sourceTree = "<group>"; };
-		C4D227CE8E339A3D47343E1CAFAC8A0D /* S2GeometrySwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = S2GeometrySwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC73E18463EDE215DBBCD518C30F7422 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E3D839372C54C39087C3D06CF84ACAAD /* Pods-S2GeometrySwift_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-S2GeometrySwift_Tests-dummy.m"; sourceTree = "<group>"; };
 		EE52B65231F5C252E2491FC1EE81122C /* S2GeometrySwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "S2GeometrySwift-umbrella.h"; sourceTree = "<group>"; };
@@ -95,14 +81,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FBB5CF6A5297B9DCFB03888612BAF5D5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C5DAE27570B8702445D4FFE100E2DE82 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		FE1FC26F42B7B2726FBDC48AA6FA54A5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -128,7 +106,6 @@
 			isa = PBXGroup;
 			children = (
 				EEFE3B225DD037BF8A5CB27245D52769 /* Pods_S2GeometrySwift_Tests.framework */,
-				C4D227CE8E339A3D47343E1CAFAC8A0D /* S2GeometrySwift.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -257,34 +234,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EAEC1924E231B655B832636B764138FD /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FABF31D5231C732FD2C53E0BE811933A /* S2GeometrySwift-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		5FEE098E9E4D2550463E7C0EB479C132 /* S2GeometrySwift */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0997162A8CE0719686C7D532708ACAEA /* Build configuration list for PBXNativeTarget "S2GeometrySwift" */;
-			buildPhases = (
-				867F030E3F044047F1239BA4184BA456 /* Sources */,
-				FBB5CF6A5297B9DCFB03888612BAF5D5 /* Frameworks */,
-				EAEC1924E231B655B832636B764138FD /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = S2GeometrySwift;
-			productName = S2GeometrySwift;
-			productReference = C4D227CE8E339A3D47343E1CAFAC8A0D /* S2GeometrySwift.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		E1DEB8050FD9E5E6C14765020E9A99AF /* Pods-S2GeometrySwift_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 93EB382465E6BE3216ADF2B1F9507403 /* Build configuration list for PBXNativeTarget "Pods-S2GeometrySwift_Tests" */;
@@ -296,7 +248,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				911FD15819F843197BAA8E71CDE6C4DC /* PBXTargetDependency */,
 			);
 			name = "Pods-S2GeometrySwift_Tests";
 			productName = "Pods-S2GeometrySwift_Tests";
@@ -330,7 +281,6 @@
 			projectRoot = "";
 			targets = (
 				E1DEB8050FD9E5E6C14765020E9A99AF /* Pods-S2GeometrySwift_Tests */,
-				5FEE098E9E4D2550463E7C0EB479C132 /* S2GeometrySwift */,
 			);
 		};
 /* End PBXProject section */
@@ -367,24 +317,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		867F030E3F044047F1239BA4184BA456 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				96B65FBF6CC5245ADD0B84EF9D55910C /* S2GeometrySwift-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		911FD15819F843197BAA8E71CDE6C4DC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = S2GeometrySwift;
-			target = 5FEE098E9E4D2550463E7C0EB479C132 /* S2GeometrySwift */;
-			targetProxy = A277C2DC78BBE0569AD7AD1E1D64C8CA /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		157AF0CD5E5AB2A2E74D3B8ECD865185 /* Release */ = {
@@ -469,75 +402,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		A36BB105000B25210398F8113A511DF2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8955D282AEABAAFE66E05C21311AF1B0 /* S2GeometrySwift.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/S2GeometrySwift/S2GeometrySwift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/S2GeometrySwift/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/S2GeometrySwift/S2GeometrySwift.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = S2GeometrySwift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		C8E543066526A36578A26906F995D81E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8955D282AEABAAFE66E05C21311AF1B0 /* S2GeometrySwift.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/S2GeometrySwift/S2GeometrySwift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/S2GeometrySwift/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/S2GeometrySwift/S2GeometrySwift.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = S2GeometrySwift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		D7B1487F48E36BAD2CEF0AFCA4908B67 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -630,15 +494,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0997162A8CE0719686C7D532708ACAEA /* Build configuration list for PBXNativeTarget "S2GeometrySwift" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C8E543066526A36578A26906F995D81E /* Debug */,
-				A36BB105000B25210398F8113A511DF2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
