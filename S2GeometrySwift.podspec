@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'S2GeometrySwift'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of S2GeometrySwift.'
+  s.version          = '1.0.0'
+  s.summary          = 'Geometry library in Swift.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,15 +17,13 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = Contains a Swift import of Googles S2 Geometry Library.
 
   s.homepage         = 'https://github.com/Philip/S2GeometrySwift'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Philip' => 'philip.bui.developer@gmail.com' }
-  s.source           = { :git => 'https://github.com/Philip/S2GeometrySwift.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/philip-bui/S2GeometrySwift.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

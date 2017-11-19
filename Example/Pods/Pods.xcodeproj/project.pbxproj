@@ -7,8 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C277DF41FC1CD88001763FC /* S2Projections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C277DDD1FC1CD85001763FC /* S2Projections.swift */; };
+		3C277DF51FC1CD88001763FC /* S2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C277DDE1FC1CD85001763FC /* S2.swift */; };
+		3C277DF61FC1CD88001763FC /* S2Polyline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C277DDF1FC1CD86001763FC /* S2Polyline.swift */; };
+		3C277DF71FC1CD88001763FC /* S2Polygon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C277DE01FC1CD86001763FC /* S2Polygon.swift */; };
+		3C277DF81FC1CD88001763FC /* S2AreaCentroid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C277DE11FC1CD86001763FC /* S2AreaCentroid.swift */; };
+		3C277DF91FC1CD88001763FC /* S2CellId.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C277DE21FC1CD86001763FC /* S2CellId.swift */; };
+		3C277DFA1FC1CD88001763FC /* S2EdgeUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C277DE31FC1CD86001763FC /* S2EdgeUtil.swift */; };
+		3C277DFB1FC1CD88001763FC /* S2LatLng.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C277DE41FC1CD86001763FC /* S2LatLng.swift */; };
+		3C277DFC1FC1CD88001763FC /* S2Region.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C277DE51FC1CD86001763FC /* S2Region.swift */; };
+		3C277DFD1FC1CD88001763FC /* S2Cap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C277DE61FC1CD86001763FC /* S2Cap.swift */; };
+		3C277DFE1FC1CD88001763FC /* S2RegionCoverer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C277DE71FC1CD86001763FC /* S2RegionCoverer.swift */; };
+		3C277DFF1FC1CD88001763FC /* S2EdgeIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C277DE81FC1CD86001763FC /* S2EdgeIndex.swift */; };
+		3C277E001FC1CD88001763FC /* S2Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C277DE91FC1CD86001763FC /* S2Cell.swift */; };
+		3C277E011FC1CD88001763FC /* R1Interval.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C277DEA1FC1CD87001763FC /* R1Interval.swift */; };
+		3C277E021FC1CD88001763FC /* R2Vector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C277DEB1FC1CD87001763FC /* R2Vector.swift */; };
+		3C277E031FC1CD88001763FC /* S1Interval.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C277DEC1FC1CD87001763FC /* S1Interval.swift */; };
+		3C277E041FC1CD88001763FC /* S2LatLngRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C277DED1FC1CD87001763FC /* S2LatLngRect.swift */; };
+		3C277E051FC1CD88001763FC /* S2Edge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C277DEE1FC1CD87001763FC /* S2Edge.swift */; };
+		3C277E061FC1CD88001763FC /* S2Loop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C277DEF1FC1CD87001763FC /* S2Loop.swift */; };
+		3C277E071FC1CD88001763FC /* S2Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C277DF01FC1CD88001763FC /* S2Point.swift */; };
+		3C277E081FC1CD88001763FC /* S1Angle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C277DF11FC1CD88001763FC /* S1Angle.swift */; };
+		3C277E091FC1CD88001763FC /* S2PolygonBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C277DF21FC1CD88001763FC /* S2PolygonBuilder.swift */; };
+		3C277E0A1FC1CD88001763FC /* S2CellUnion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C277DF31FC1CD88001763FC /* S2CellUnion.swift */; };
 		4B9E9DA85E0AF9A72E0CCF98A4B5AAFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		74308D2238EC5A27A4454219B8EF03C8 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F6C94203A07D3AA2D5DC8C4F40B85A /* ReplaceMe.swift */; };
 		96B65FBF6CC5245ADD0B84EF9D55910C /* S2GeometrySwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 847CD55FB91006127077C532A1D0F425 /* S2GeometrySwift-dummy.m */; };
 		9EBA259D389B9759E4372391ED129288 /* Pods-S2GeometrySwift_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 973F16BBCE41B71F152E8FF1F7FC49E8 /* Pods-S2GeometrySwift_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B6709C7188FE2024877228EBF4107B86 /* Pods-S2GeometrySwift_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D839372C54C39087C3D06CF84ACAAD /* Pods-S2GeometrySwift_Tests-dummy.m */; };
@@ -27,25 +49,47 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0974D247D1FE55319FC53434B5F42135 /* Pods-S2GeometrySwift_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-S2GeometrySwift_Tests.modulemap"; sourceTree = "<group>"; };
+		0974D247D1FE55319FC53434B5F42135 /* Pods-S2GeometrySwift_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-S2GeometrySwift_Tests.modulemap"; sourceTree = "<group>"; };
 		0A897179293E708F5FEFD9F24382D811 /* Pods-S2GeometrySwift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-S2GeometrySwift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		0AAE0F366B5C45C0C3E850D273158558 /* Pods-S2GeometrySwift_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-S2GeometrySwift_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		1DBD7706E0C33926478F19DDC9DF7449 /* S2GeometrySwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = S2GeometrySwift.modulemap; sourceTree = "<group>"; };
+		1DBD7706E0C33926478F19DDC9DF7449 /* S2GeometrySwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = S2GeometrySwift.modulemap; sourceTree = "<group>"; };
+		3C277DDD1FC1CD85001763FC /* S2Projections.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = S2Projections.swift; sourceTree = "<group>"; };
+		3C277DDE1FC1CD85001763FC /* S2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = S2.swift; sourceTree = "<group>"; };
+		3C277DDF1FC1CD86001763FC /* S2Polyline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = S2Polyline.swift; sourceTree = "<group>"; };
+		3C277DE01FC1CD86001763FC /* S2Polygon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = S2Polygon.swift; sourceTree = "<group>"; };
+		3C277DE11FC1CD86001763FC /* S2AreaCentroid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = S2AreaCentroid.swift; sourceTree = "<group>"; };
+		3C277DE21FC1CD86001763FC /* S2CellId.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = S2CellId.swift; sourceTree = "<group>"; };
+		3C277DE31FC1CD86001763FC /* S2EdgeUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = S2EdgeUtil.swift; sourceTree = "<group>"; };
+		3C277DE41FC1CD86001763FC /* S2LatLng.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = S2LatLng.swift; sourceTree = "<group>"; };
+		3C277DE51FC1CD86001763FC /* S2Region.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = S2Region.swift; sourceTree = "<group>"; };
+		3C277DE61FC1CD86001763FC /* S2Cap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = S2Cap.swift; sourceTree = "<group>"; };
+		3C277DE71FC1CD86001763FC /* S2RegionCoverer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = S2RegionCoverer.swift; sourceTree = "<group>"; };
+		3C277DE81FC1CD86001763FC /* S2EdgeIndex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = S2EdgeIndex.swift; sourceTree = "<group>"; };
+		3C277DE91FC1CD86001763FC /* S2Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = S2Cell.swift; sourceTree = "<group>"; };
+		3C277DEA1FC1CD87001763FC /* R1Interval.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R1Interval.swift; sourceTree = "<group>"; };
+		3C277DEB1FC1CD87001763FC /* R2Vector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R2Vector.swift; sourceTree = "<group>"; };
+		3C277DEC1FC1CD87001763FC /* S1Interval.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = S1Interval.swift; sourceTree = "<group>"; };
+		3C277DED1FC1CD87001763FC /* S2LatLngRect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = S2LatLngRect.swift; sourceTree = "<group>"; };
+		3C277DEE1FC1CD87001763FC /* S2Edge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = S2Edge.swift; sourceTree = "<group>"; };
+		3C277DEF1FC1CD87001763FC /* S2Loop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = S2Loop.swift; sourceTree = "<group>"; };
+		3C277DF01FC1CD88001763FC /* S2Point.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = S2Point.swift; sourceTree = "<group>"; };
+		3C277DF11FC1CD88001763FC /* S1Angle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = S1Angle.swift; sourceTree = "<group>"; };
+		3C277DF21FC1CD88001763FC /* S2PolygonBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = S2PolygonBuilder.swift; sourceTree = "<group>"; };
+		3C277DF31FC1CD88001763FC /* S2CellUnion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = S2CellUnion.swift; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		776C90F97150E2A037DCA070E71F9D69 /* Pods-S2GeometrySwift_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-S2GeometrySwift_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		847CD55FB91006127077C532A1D0F425 /* S2GeometrySwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "S2GeometrySwift-dummy.m"; sourceTree = "<group>"; };
 		8955D282AEABAAFE66E05C21311AF1B0 /* S2GeometrySwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = S2GeometrySwift.xcconfig; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		93F6C94203A07D3AA2D5DC8C4F40B85A /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		973F16BBCE41B71F152E8FF1F7FC49E8 /* Pods-S2GeometrySwift_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-S2GeometrySwift_Tests-umbrella.h"; sourceTree = "<group>"; };
 		9B6BDB30524FF926B5041D44348264F7 /* S2GeometrySwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "S2GeometrySwift-prefix.pch"; sourceTree = "<group>"; };
 		AEA210868C5640416CF3DE15E1EF42E3 /* Pods-S2GeometrySwift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-S2GeometrySwift_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B62F544B412672795A6F893A5431EB28 /* Pods-S2GeometrySwift_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-S2GeometrySwift_Tests-resources.sh"; sourceTree = "<group>"; };
-		C4D227CE8E339A3D47343E1CAFAC8A0D /* S2GeometrySwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = S2GeometrySwift.framework; path = S2GeometrySwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4D227CE8E339A3D47343E1CAFAC8A0D /* S2GeometrySwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = S2GeometrySwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC73E18463EDE215DBBCD518C30F7422 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E3D839372C54C39087C3D06CF84ACAAD /* Pods-S2GeometrySwift_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-S2GeometrySwift_Tests-dummy.m"; sourceTree = "<group>"; };
 		EE52B65231F5C252E2491FC1EE81122C /* S2GeometrySwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "S2GeometrySwift-umbrella.h"; sourceTree = "<group>"; };
-		EEFE3B225DD037BF8A5CB27245D52769 /* Pods_S2GeometrySwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_S2GeometrySwift_Tests.framework; path = "Pods-S2GeometrySwift_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEFE3B225DD037BF8A5CB27245D52769 /* Pods_S2GeometrySwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_S2GeometrySwift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F872BB14B8ECC6C1E2A74D31A050CCD4 /* Pods-S2GeometrySwift_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-S2GeometrySwift_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		F8AC91806618F6AAFEDE71EAB52B4683 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -94,7 +138,6 @@
 			children = (
 				FDA94C5CD5486DBCBC898519016EEEF1 /* Classes */,
 			);
-			name = S2GeometrySwift;
 			path = S2GeometrySwift;
 			sourceTree = "<group>";
 		};
@@ -176,9 +219,30 @@
 		FDA94C5CD5486DBCBC898519016EEEF1 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				93F6C94203A07D3AA2D5DC8C4F40B85A /* ReplaceMe.swift */,
+				3C277DEA1FC1CD87001763FC /* R1Interval.swift */,
+				3C277DEB1FC1CD87001763FC /* R2Vector.swift */,
+				3C277DF11FC1CD88001763FC /* S1Angle.swift */,
+				3C277DEC1FC1CD87001763FC /* S1Interval.swift */,
+				3C277DDE1FC1CD85001763FC /* S2.swift */,
+				3C277DE11FC1CD86001763FC /* S2AreaCentroid.swift */,
+				3C277DE61FC1CD86001763FC /* S2Cap.swift */,
+				3C277DE91FC1CD86001763FC /* S2Cell.swift */,
+				3C277DE21FC1CD86001763FC /* S2CellId.swift */,
+				3C277DF31FC1CD88001763FC /* S2CellUnion.swift */,
+				3C277DEE1FC1CD87001763FC /* S2Edge.swift */,
+				3C277DE81FC1CD86001763FC /* S2EdgeIndex.swift */,
+				3C277DE31FC1CD86001763FC /* S2EdgeUtil.swift */,
+				3C277DE41FC1CD86001763FC /* S2LatLng.swift */,
+				3C277DED1FC1CD87001763FC /* S2LatLngRect.swift */,
+				3C277DEF1FC1CD87001763FC /* S2Loop.swift */,
+				3C277DF01FC1CD88001763FC /* S2Point.swift */,
+				3C277DE01FC1CD86001763FC /* S2Polygon.swift */,
+				3C277DF21FC1CD88001763FC /* S2PolygonBuilder.swift */,
+				3C277DDF1FC1CD86001763FC /* S2Polyline.swift */,
+				3C277DDD1FC1CD85001763FC /* S2Projections.swift */,
+				3C277DE51FC1CD86001763FC /* S2Region.swift */,
+				3C277DE71FC1CD86001763FC /* S2RegionCoverer.swift */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -247,6 +311,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					E1DEB8050FD9E5E6C14765020E9A99AF = {
+						LastSwiftMigration = 0910;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -271,7 +340,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C277E051FC1CD88001763FC /* S2Edge.swift in Sources */,
+				3C277E021FC1CD88001763FC /* R2Vector.swift in Sources */,
+				3C277DFD1FC1CD88001763FC /* S2Cap.swift in Sources */,
+				3C277DF61FC1CD88001763FC /* S2Polyline.swift in Sources */,
+				3C277DFF1FC1CD88001763FC /* S2EdgeIndex.swift in Sources */,
 				B6709C7188FE2024877228EBF4107B86 /* Pods-S2GeometrySwift_Tests-dummy.m in Sources */,
+				3C277E031FC1CD88001763FC /* S1Interval.swift in Sources */,
+				3C277E081FC1CD88001763FC /* S1Angle.swift in Sources */,
+				3C277DFB1FC1CD88001763FC /* S2LatLng.swift in Sources */,
+				3C277DF41FC1CD88001763FC /* S2Projections.swift in Sources */,
+				3C277E0A1FC1CD88001763FC /* S2CellUnion.swift in Sources */,
+				3C277E041FC1CD88001763FC /* S2LatLngRect.swift in Sources */,
+				3C277E071FC1CD88001763FC /* S2Point.swift in Sources */,
+				3C277E001FC1CD88001763FC /* S2Cell.swift in Sources */,
+				3C277DFC1FC1CD88001763FC /* S2Region.swift in Sources */,
+				3C277E091FC1CD88001763FC /* S2PolygonBuilder.swift in Sources */,
+				3C277DFA1FC1CD88001763FC /* S2EdgeUtil.swift in Sources */,
+				3C277DF51FC1CD88001763FC /* S2.swift in Sources */,
+				3C277DF91FC1CD88001763FC /* S2CellId.swift in Sources */,
+				3C277DF71FC1CD88001763FC /* S2Polygon.swift in Sources */,
+				3C277DF81FC1CD88001763FC /* S2AreaCentroid.swift in Sources */,
+				3C277DFE1FC1CD88001763FC /* S2RegionCoverer.swift in Sources */,
+				3C277E061FC1CD88001763FC /* S2Loop.swift in Sources */,
+				3C277E011FC1CD88001763FC /* R1Interval.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,7 +371,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74308D2238EC5A27A4454219B8EF03C8 /* ReplaceMe.swift in Sources */,
 				96B65FBF6CC5245ADD0B84EF9D55910C /* S2GeometrySwift-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -344,6 +435,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AEA210868C5640416CF3DE15E1EF42E3 /* Pods-S2GeometrySwift_Tests.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -499,6 +591,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0A897179293E708F5FEFD9F24382D811 /* Pods-S2GeometrySwift_Tests.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
