@@ -1,0 +1,16 @@
+PODS:
+  - S2GeometrySwift (0.1.0)
+
+DEPENDENCIES:
+  - S2GeometrySwift (from `../`)
+
+EXTERNAL SOURCES:
+  S2GeometrySwift:
+    :path: ../
+
+SPEC CHECKSUMS:
+  S2GeometrySwift: 460696ba88983f0e9bb4d7ee172a52c3dc761ab6
+
+PODFILE CHECKSUM: a6480cc7d284ed99530e1191fa7c74c98a82773a
+
+COCOAPODS: 1.2.1

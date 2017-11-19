@@ -1,0 +1,6 @@
+framework module S2GeometrySwift {
+  umbrella header "S2GeometrySwift-umbrella.h"
+
+  export *
+  module * { export * }
+}
