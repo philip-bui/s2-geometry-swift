@@ -1,9 +1,9 @@
 {
   "name": "S2GeometrySwift",
-  "version": "0.1.0",
-  "summary": "A short description of S2GeometrySwift.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Philip/S2GeometrySwift",
+  "version": "1.0.0",
+  "summary": "Geometry library in Swift.",
+  "description": "Contains a Swift import of Googles S2 Geometry Library",
+  "homepage": "https://github.com/philip-bui/s2-geometry-swift",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,8 +12,8 @@
     "Philip": "philip.bui.developer@gmail.com"
   },
   "source": {
-    "git": "https://github.com/Philip/S2GeometrySwift.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/philip-bui/s2-geometry-swift.git",
+    "tag": "1.0.0"
   },
   "platforms": {
     "ios": "8.0"

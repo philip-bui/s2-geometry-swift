@@ -1,5 +1,5 @@
 PODS:
-  - S2GeometrySwift (0.1.0)
+  - S2GeometrySwift (1.0.0)
 
 DEPENDENCIES:
   - S2GeometrySwift (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  S2GeometrySwift: 460696ba88983f0e9bb4d7ee172a52c3dc761ab6
+  S2GeometrySwift: 74c9c09bf52c40db3fb8934704c9138439408186
 
 PODFILE CHECKSUM: a6480cc7d284ed99530e1191fa7c74c98a82773a
 
