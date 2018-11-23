@@ -214,12 +214,12 @@ public struct S2CellId: Comparable, Hashable {
 	public var level: Int {
 		// Fast path for leaf cells.
 		guard !isLeaf else { return S2CellId.maxLevel }
-		var x = Int32(truncatingBitPattern: id)
+        var x = Int32(truncatingIfNeeded: id)
 		var level = -1
 		if x != 0 {
 			level += 16
 		} else {
-			x = Int32(truncatingBitPattern: id >> Int64(32))
+			x = Int32(truncatingIfNeeded: id >> Int64(32))
 		}
 		// We only need to look at even-numbered bits to determine the
 		// level of a valid cell id.
@@ -355,8 +355,7 @@ public struct S2CellId: Comparable, Hashable {
 	public func next() -> S2CellId {
 		
 		
-		
-		return S2CellId(id: Int64.addWithOverflow(id, lowestOnBit << 1).0)
+		return S2CellId(id: id.addingReportingOverflow(lowestOnBit << 1).partialValue)
 	}
 	
 	/**
@@ -365,7 +364,7 @@ public struct S2CellId: Comparable, Hashable {
 		around from the last face to the first or vice versa.
 	*/
 	public func prev() -> S2CellId {
-		return S2CellId(id: Int64.subtractWithOverflow(id, lowestOnBit << 1).0)
+        return S2CellId(id: id.subtractingReportingOverflow(lowestOnBit << 1).partialValue)
 	}
 	
 	/**
@@ -772,7 +771,7 @@ public struct S2CellId: Comparable, Hashable {
 		
 //		UInt64
 		
-		return Int(truncatingBitPattern: (uid >> 32) + uid)
+        return Int(truncatingIfNeeded: (uid >> 32) + uid)
 	}
 	
 	/**
