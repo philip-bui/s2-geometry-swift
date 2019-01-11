@@ -11,6 +11,9 @@
 		D4D99FA421E84CD3007033DC /* S2GeometrySwift_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4D99F9B21E84CD3007033DC /* S2GeometrySwift_macOS.framework */; };
 		D4D99FC021E84CF9007033DC /* S2GeometrySwift_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4D99FB721E84CF9007033DC /* S2GeometrySwift_tvOS.framework */; };
 		D4D99FDE21E84E1D007033DC /* CODE_OF_CONDUCT.md in Resources */ = {isa = PBXBuildFile; fileRef = D4D99FDD21E84E1C007033DC /* CODE_OF_CONDUCT.md */; };
+		D4D99FE521E85C31007033DC /* S2PointTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D99FE321E856FC007033DC /* S2PointTests.swift */; };
+		D4D99FE621E85C35007033DC /* S2PointTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D99FE321E856FC007033DC /* S2PointTests.swift */; };
+		D4D99FE721E85C37007033DC /* S2PointTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D99FE321E856FC007033DC /* S2PointTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,7 @@
 		D4D99FE021E84F05007033DC /* .swift-version */ = {isa = PBXFileReference; lastKnownFileType = text; path = ".swift-version"; sourceTree = "<group>"; };
 		D4D99FE121E84F11007033DC /* S2GeometrySwift.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = S2GeometrySwift.podspec; sourceTree = "<group>"; };
 		D4D99FE221E84F19007033DC /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		D4D99FE321E856FC007033DC /* S2PointTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = S2PointTests.swift; path = Tests/S2PointTests.swift; sourceTree = "<group>"; };
 		OBJ_10 /* R2Vector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R2Vector.swift; sourceTree = "<group>"; };
 		OBJ_11 /* S1Angle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = S1Angle.swift; sourceTree = "<group>"; };
 		OBJ_12 /* S1Interval.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = S1Interval.swift; sourceTree = "<group>"; };
@@ -76,8 +80,6 @@
 		OBJ_30 /* S2Region.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = S2Region.swift; sourceTree = "<group>"; };
 		OBJ_31 /* S2RegionCoverer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = S2RegionCoverer.swift; sourceTree = "<group>"; };
 		OBJ_33 /* tools */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tools; sourceTree = SOURCE_ROOT; };
-		OBJ_34 /* Example */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Example; sourceTree = SOURCE_ROOT; };
-		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		OBJ_9 /* R1Interval.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R1Interval.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -162,6 +164,7 @@
 		OBJ_32 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				D4D99FE321E856FC007033DC /* S2PointTests.swift */,
 			);
 			name = Tests;
 			sourceTree = SOURCE_ROOT;
@@ -185,10 +188,8 @@
 			children = (
 				D4D99F5D21E83FF9007033DC /* Documentation */,
 				D4D99F5C21E83FF4007033DC /* Deployment */,
-				OBJ_6 /* Package.swift */,
 				OBJ_7 /* Sources */,
 				OBJ_32 /* Tests */,
-				OBJ_34 /* Example */,
 				OBJ_35 /* Products */,
 			);
 			name = "";
@@ -408,7 +409,8 @@
 					};
 					D4D99F6A21E84107007033DC = {
 						CreatedOnToolsVersion = 10.1;
-						ProvisioningStyle = Automatic;
+						LastSwiftMigration = 1010;
+						ProvisioningStyle = Manual;
 					};
 					D4D99F9A21E84CD3007033DC = {
 						CreatedOnToolsVersion = 10.1;
@@ -520,6 +522,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4D99FE621E85C35007033DC /* S2PointTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -534,6 +537,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4D99FE521E85C31007033DC /* S2PointTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -548,6 +552,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4D99FE721E85C37007033DC /* S2PointTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -745,7 +750,8 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -757,15 +763,17 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = S2GeometrySwiftTests/Info.plist;
+				INFOPLIST_FILE = Sources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nextgeneration.S2GeometrySwiftTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -803,8 +811,9 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -815,13 +824,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = S2GeometrySwiftTests/Info.plist;
+				INFOPLIST_FILE = Sources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nextgeneration.S2GeometrySwiftTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1007,7 +1017,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = S2GeometrySwiftTests/Info.plist;
+				INFOPLIST_FILE = Sources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
@@ -1064,7 +1074,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = S2GeometrySwiftTests/Info.plist;
+				INFOPLIST_FILE = Sources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -1252,7 +1262,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = S2GeometrySwiftTests/Info.plist;
+				INFOPLIST_FILE = Sources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -1309,7 +1319,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = S2GeometrySwiftTests/Info.plist;
+				INFOPLIST_FILE = Sources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
