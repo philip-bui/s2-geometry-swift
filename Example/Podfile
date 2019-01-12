@@ -1,6 +1,0 @@
-use_frameworks!
-target 'S2GeometrySwift_Tests' do
-  pod 'S2GeometrySwift', :path => '../'
-  
-  
-end
