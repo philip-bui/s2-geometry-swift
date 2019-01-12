@@ -1,10 +1,11 @@
 # S2Geometry Swift
 
 [![CI Status](http://img.shields.io/travis/philip-bui/s2-geometry-swift.svg?style=flat)](https://travis-ci.org/philip-bui/s2-geometry-swift)
+[![CodeCov](https://codecov.io/gh/philip-bui/s2-geometry-swift/branch/master/graph/badge.svg)](https://codecov.io/gh/philip-bui/s2-geometry-swift)
 [![Version](https://img.shields.io/cocoapods/v/S2GeometrySwift.svg?style=flat)](http://cocoapods.org/pods/S2GeometrySwift)
 [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
-[![License](https://img.shields.io/cocoapods/l/S2GeometrySwift.svg?style=flat)](https://github.com/philip-bui/s2-geometry-swift/LICENSE)
 [![Platform](https://img.shields.io/cocoapods/p/S2GeometrySwift.svg?style=flat)](http://cocoapods.org/pods/S2GeometrySwift)
+[![License](https://img.shields.io/cocoapods/l/S2GeometrySwift.svg?style=flat)](https://github.com/philip-bui/s2-geometry-swift/blob/master/LICENSE)
 
 ## Requirements
 
@@ -45,6 +46,7 @@ dependencies: [
 ## Special Thanks
 
 - [Google](http://s2geometry.io/) - Creator of S2Geometry. 
+- [Contributors](https://github.com/philip-bui/s2-geometry-swift/graphs/contributors) - Everyone committed to keeping S2Geometry Swift up to date.
 
 ## License
 
