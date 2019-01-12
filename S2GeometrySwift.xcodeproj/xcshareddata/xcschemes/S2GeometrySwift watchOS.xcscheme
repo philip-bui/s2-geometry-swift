@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D4D99FD221E84D8D007033DC"
-               BuildableName = "S2GeometrySwift_watchOS.framework"
+               BuildableName = "S2GeometrySwift.framework"
                BlueprintName = "S2GeometrySwift watchOS"
                ReferencedContainer = "container:S2GeometrySwift.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D4D99FD221E84D8D007033DC"
-            BuildableName = "S2GeometrySwift_watchOS.framework"
+            BuildableName = "S2GeometrySwift.framework"
             BlueprintName = "S2GeometrySwift watchOS"
             ReferencedContainer = "container:S2GeometrySwift.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D4D99FD221E84D8D007033DC"
-            BuildableName = "S2GeometrySwift_watchOS.framework"
+            BuildableName = "S2GeometrySwift.framework"
             BlueprintName = "S2GeometrySwift watchOS"
             ReferencedContainer = "container:S2GeometrySwift.xcodeproj">
          </BuildableReference>

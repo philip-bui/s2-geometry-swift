@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D4D99FB621E84CF9007033DC"
-               BuildableName = "S2GeometrySwift_tvOS.framework"
+               BuildableName = "S2GeometrySwift.framework"
                BlueprintName = "S2GeometrySwift tvOS"
                ReferencedContainer = "container:S2GeometrySwift.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D4D99FB621E84CF9007033DC"
-            BuildableName = "S2GeometrySwift_tvOS.framework"
+            BuildableName = "S2GeometrySwift.framework"
             BlueprintName = "S2GeometrySwift tvOS"
             ReferencedContainer = "container:S2GeometrySwift.xcodeproj">
          </BuildableReference>
@@ -65,7 +65,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D4D99FB621E84CF9007033DC"
-            BuildableName = "S2GeometrySwift_tvOS.framework"
+            BuildableName = "S2GeometrySwift.framework"
             BlueprintName = "S2GeometrySwift tvOS"
             ReferencedContainer = "container:S2GeometrySwift.xcodeproj">
          </BuildableReference>
@@ -83,7 +83,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D4D99FB621E84CF9007033DC"
-            BuildableName = "S2GeometrySwift_tvOS.framework"
+            BuildableName = "S2GeometrySwift.framework"
             BlueprintName = "S2GeometrySwift tvOS"
             ReferencedContainer = "container:S2GeometrySwift.xcodeproj">
          </BuildableReference>
