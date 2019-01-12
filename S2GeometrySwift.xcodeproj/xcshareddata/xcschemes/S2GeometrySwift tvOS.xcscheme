@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D4D99F2821E83EBE007033DC"
+               BlueprintIdentifier = "D4D99FB621E84CF9007033DC"
                BuildableName = "S2GeometrySwift_tvOS.framework"
                BlueprintName = "S2GeometrySwift tvOS"
                ReferencedContainer = "container:S2GeometrySwift.xcodeproj">
@@ -28,7 +28,26 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D4D99FBE21E84CF9007033DC"
+               BuildableName = "S2GeometrySwift tvOS Tests.xctest"
+               BlueprintName = "S2GeometrySwift tvOS Tests"
+               ReferencedContainer = "container:S2GeometrySwift.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "D4D99FB621E84CF9007033DC"
+            BuildableName = "S2GeometrySwift_tvOS.framework"
+            BlueprintName = "S2GeometrySwift tvOS"
+            ReferencedContainer = "container:S2GeometrySwift.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -45,7 +64,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D4D99F2821E83EBE007033DC"
+            BlueprintIdentifier = "D4D99FB621E84CF9007033DC"
             BuildableName = "S2GeometrySwift_tvOS.framework"
             BlueprintName = "S2GeometrySwift tvOS"
             ReferencedContainer = "container:S2GeometrySwift.xcodeproj">
@@ -63,7 +82,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D4D99F2821E83EBE007033DC"
+            BlueprintIdentifier = "D4D99FB621E84CF9007033DC"
             BuildableName = "S2GeometrySwift_tvOS.framework"
             BlueprintName = "S2GeometrySwift tvOS"
             ReferencedContainer = "container:S2GeometrySwift.xcodeproj">
