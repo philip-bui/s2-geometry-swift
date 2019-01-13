@@ -28,7 +28,7 @@ pod 'S2GeometrySwift'
 [Carthage](https://github.com/Carthage/Carthage) is a decentralized dependency manager that builds your dependencies and provides you with binary frameworks. To integrate S2GeometrySwift into your Xcode project using Carthage, specify it in your `Cartfile`:
 
 ```ogdl
-github "philip-bui/S2GeometrySwift"
+github "philip-bui/s2-geometry-swift" 
 ```
 
 ### Swift Package Manager
