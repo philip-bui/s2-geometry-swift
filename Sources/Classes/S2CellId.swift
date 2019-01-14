@@ -842,3 +842,15 @@ public func ==(lhs: S2CellId, rhs: S2CellId) -> Bool {
 public func <(lhs: S2CellId, rhs: S2CellId) -> Bool {
 	return S2CellId.unsignedLongLessThan(lhs: lhs.id, rhs: rhs.id)
 }
+
+public func >(lhs: S2CellId, rhs: S2CellId) -> Bool {
+    return S2CellId.unsignedLongGreaterThan(lhs: lhs.id, rhs: rhs.id)
+}
+
+public func <=(lhs: S2CellId, rhs: S2CellId) -> Bool {
+    return S2CellId.unsignedLongLessThan(lhs: lhs.id, rhs: rhs.id) || lhs.id == rhs.id
+}
+
+public func >=(lhs: S2CellId, rhs: S2CellId) -> Bool {
+    return S2CellId.unsignedLongGreaterThan(lhs: lhs.id, rhs: rhs.id) || lhs.id == rhs.id
+}
