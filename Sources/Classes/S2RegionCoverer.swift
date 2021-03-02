@@ -266,10 +266,7 @@ public class S2RegionCoverer {
 	private func addCandidate(candidate: Candidate?) {
 		guard var candidate = candidate else { return }
 		
-		print("addCandidate:", candidate)
-		
 		if candidate.isTerminal {
-//			print("isTerminal")
 			result.append(candidate.cell.cellId)
 			return
 		}
@@ -308,8 +305,6 @@ public class S2RegionCoverer {
 	*/
 	private func expandChildren(candidate: inout Candidate, cell: S2Cell, numLevels: inout Int) -> Int {
 		guard let region = region else { return 0 }
-		
-		print("expandChildren:", candidate)
 		
 		numLevels -= 1
 		let childCells = cell.subdivide()
@@ -387,10 +382,6 @@ public class S2RegionCoverer {
 		getInitialCandidates()
 		candidateQueue.sort()
 		
-		print("---------------------------------------------")
-		print("candidateQueue:", candidateQueue)
-		print("---------------------------------------------")
-		
 		while !candidateQueue.isEmpty && (!interiorCovering || result.count < maxCells) {
 			var candidate = candidateQueue.removeFirst().candidate
 			if (Int(candidate.cell.level) < minLevel || candidate.children.count == 1
@@ -406,8 +397,6 @@ public class S2RegionCoverer {
 				addCandidate(candidate: candidate)
 			}
 		}
-		
-		print("result:", result)
 		
 		candidateQueue.removeAll()
 		self.region = nil
