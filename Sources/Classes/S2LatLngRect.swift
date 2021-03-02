@@ -267,16 +267,6 @@ public struct S2LatLngRect: S2Region, Equatable {
 	
 	/// Return true if this rectangle and the given other rectangle have any points in common.
 	public func intersects(with other: S2LatLngRect) -> Bool {
-		
-		
-		
-		print("--- RECT intersects")
-		print("--- \(lat) \(other.lat) => \(lat.intersects(with: other.lat))")
-		print(latLo.degrees, latHi.degrees, "/", other.latLo.degrees, other.latHi.degrees)
-		print("--- \(lng) \(other.lng) (\(lng.isInverted) \(other.lng.isInverted)) => \(lng.intersects(with: other.lng))")
-		print(lngLo.degrees, lngHi.degrees, "/", other.lngLo.degrees, other.lngHi.degrees)
-		print("---")
-		
 		return lat.intersects(with: other.lat) && lng.intersects(with: other.lng)
 	}
 	
