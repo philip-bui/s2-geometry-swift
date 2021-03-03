@@ -1,7 +1,6 @@
 # S2Geometry Swift
 
 [![CI Status](http://img.shields.io/travis/philip-bui/s2-geometry-swift.svg?style=flat)](https://travis-ci.org/philip-bui/s2-geometry-swift)
-[![CodeCov](https://codecov.io/gh/philip-bui/s2-geometry-swift/branch/master/graph/badge.svg)](https://codecov.io/gh/philip-bui/s2-geometry-swift)
 [![Version](https://img.shields.io/cocoapods/v/S2GeometrySwift.svg?style=flat)](http://cocoapods.org/pods/S2GeometrySwift)
 [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![Platform](https://img.shields.io/cocoapods/p/S2GeometrySwift.svg?style=flat)](http://cocoapods.org/pods/S2GeometrySwift)
@@ -11,7 +10,7 @@
 
 - iOS 8.0+ / macOS 10.9+ / tvOS 9.0+ / watchOS 2.0+
 - xCode 10.3+
-- Swift 4.0+ 
+- Swift 4.2+ 
 
 ## Installation
 
@@ -39,7 +38,7 @@ Once you have your Swift package set up, adding S2Geometry as a dependency is as
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/philip-bui/s2-geometry-swift.git", from: "1.0.1"))
+    .package(url: "https://github.com/philip-bui/s2-geometry-swift.git", from: "1.0.3"))
 ]
 ```
 

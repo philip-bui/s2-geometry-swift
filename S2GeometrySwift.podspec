@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'S2GeometrySwift'
-  s.version = '1.0.2'
+  s.version = '1.0.3'
   s.license= { :type => 'MIT', :file => 'LICENSE' }
   s.summary = 'S2 Geometry library in Swift.'
   s.description = 'Swift port of S2 Geometry by Google.'
@@ -13,6 +13,8 @@ Pod::Spec.new do |s|
   s.osx.deployment_target = '10.9'
   s.tvos.deployment_target = '9.0'
   s.watchos.deployment_target = '2.0'
+
+  s.swift_version = '4.2'
  
   s.source_files = 'Sources/Classes/**/*'
 end
